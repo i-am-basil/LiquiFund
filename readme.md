@@ -38,10 +38,10 @@ During tenor:
 ### Highlights
 
 - Average Daily Return: **0.0013**
-- Value at Risk (VaR) at 95% Confidence Level: **-0.0023**
-- Conditional Value at Risk (CVaR): **-0.0058**
+- Daily Value at Risk (VaR) at 95% Confidence Level: **-0.23%**
+- Daily Conditional Value at Risk (CVaR): **-0.58%**
 - Hypothesis test against 20% APY:
     - Z-Score for Hypothesis Test: **12.8520**
-    - P-Value for Hypothesis Test: **0.0000**
+    - P-Value for Hypothesis Test: **<0.001**
 
 Based on the results, we can **reject the null hypothesis**, indicating that the strategy does achieve at least **20% APY on average**.
