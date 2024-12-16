@@ -1,9 +1,10 @@
 # Delta neutral strategy: ETH Gamma Scalping Strategy
+(to test this strategy I use [ETH intraday data](https://www.kaggle.com/datasets/debashish311601/intraday-ether-prices?resource=download))
 
 ## Assumptions
 
-1. **No slippage**: The market is efficient enough to allow a slippage of zero.
-2. **Liquidity**: Quick entry and exit without significant price impact.
+1. **No slippage**: The market is efficient enough to allow a slippage of zero
+2. **Liquidity**: Quick entry and exit without significant price impact
 3. **Transaction costs**: Transaction costs associated with DEX fees are set to 0.3%
 4. **BS-model assumptions**: We imply that option premiums are calculated using the Black-Scholes model. Thus, we imply all assumptions associated with the BS-model. Note that these assumptions can be relaxed, if option premiums are captured from real-market data 
 
